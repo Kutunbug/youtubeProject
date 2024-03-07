@@ -1,165 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-       <!--google font icons-->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--google font icons-->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Yotube UI clone</title>
 </head>
-<body>
-    <!--header-starts -->
-    <div class="header">
-        <div class="header-left">
-            <i class="material-symbols-outlined">menu</i>
-            <img src="https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s100" alt="">
+
+<body id="body">
+    <div id="left-right-container">
+
+        <!-- left navigation bar -->
+        <div id="left-bar">
+            <div id="menu-logo">
+                <span id="menu-icon" class="material-symbols-outlined"> menu </span>
+                <img id="logo" src="/images/logo.png" />
+            </div>
+
+            <ul id="nav-ul1">
+                <li class="nav-list1">
+                    <img src="./icons/icons8-home.svg" class="left-nav-icons"> Home
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/shorts.png" class="left-nav-icons"> Shorts
+                </li>
+
+                </li>
+                <li class="nav-list1">
+                    <img src="./icons/subscription.PNG" class="left-nav-icons"> Subscription
+                </li>
+            </ul>
+
+            <!-- second nav ul2  --you-->
+            <ul id="nav-ul1">
+                <li class="you">
+                    <b>You</b> <span class="material-symbols-outlined">
+                        keyboard_arrow_right
+                    </span>
+                </li>
+
+                <li class="nav-list1">
+                    <span class="material-symbols-outlined">
+                        account_box
+                    </span> Your channels
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/history.PNG" class="left-nav-icons"> History
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/your-video.PNG" class="left-nav-icons"> Your videos
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/watch-later.PNG" class="left-nav-icons"> Watch later
+                </li>
+
+                <li class="nav-list1">
+                    <span class="material-symbols-outlined">
+                        keyboard_arrow_down
+                    </span> Show more
+                </li>
+            </ul>
+
+            <!-- third nav ul3  -- subscriptions -->
+            <ul id="nav-ul1">
+                <li class="you">
+                    <b>Subscriptions</b>
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/game.png" class="left-nav-icons"> Fugget About it
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/channelsTv.jpg" class="left-nav-icons"> Channels Tv
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/game.png" class="left-nav-icons"> BRIGHT SIDE
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/game.png" class="left-nav-icons"> SJWMEDIA
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/game.png" class="left-nav-icons"> In Touch Minis
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/prof2.jpg" class="left-nav-icons"> TheGaraShow
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/game.png" class="left-nav-icons"> Power Vision
+                </li>
+
+                <li class="nav-list1">
+                    <span class="material-symbols-outlined">
+                        keyboard_arrow_down
+                    </span> Show more
+                </li>
+            </ul>
+
+            <!-- fourth nav ul4  -- Explore -->
+            <ul id="nav-ul1">
+                <li class="you">
+                    <b>Explore</b>
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/trending.png" class="left-nav-icons"> Trending
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/music.png" class="left-nav-icons"> Music
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/gaming.png" class="left-nav-icons"> Gaming
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/news.png" class="left-nav-icons"> News
+                </li>
+
+                <li class="nav-list1">
+                    <img src="./icons/sport.png" class="left-nav-icons"> Sport
+                </li>
+            </ul>
         </div>
+
+        <!-- right side container -->
+        <div id="right-side">
+            <div id="top-bar">
+                <div id="s-icons">
+                    <div id="searchBar">
+                        <input type="text" placeholder="search">
+                        <img class="search" src="./icons/search.png" alt="">
+                        <img class="microphone" src="./icons/microphone.png" alt="">
+                    </div>
+
+                    <div id="icons">
+                        <img src="./icons/dot.png" alt="">
+                        <img src="./icons/Profile.png" alt="">
+                        <p>Sign In</p>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button style="background-color: rgb(44, 44, 44); color: #fff;">All</button>
+                    <button>Commedy</button>
+                    <button>HTML</button>
+                    <button>Computer Science</button>
+                    <button>Music</button>
+                    <button>Television comedy</button>
+                    <button>Animated</button>
+                    <button>Live</button>
+                    <button>Gaming</button>
+                    <button>Lo-fi</button>
+                    <button>Reggae</button>
+                    <button>Soul Music</button>
+                    <button>Law enforcement</button>
+                    <button>Nollywood</button>
+                    <button>Playlist</button>
+                    <button>Sketch comedy</button>
+                </div>
+            </div>
+
+            <div class="advert">
+                    <div class="ads">
+                        <img src="./images/yum.jpg" alt="">
+                    </div>
+
+                    <div class="secondAds">
+                        <img src="./images/enty.jpg" alt="">
+                        <div class="roundImg">
+                            <img src="./images/profile.png.jpg" alt="">
+
+                            <div class="watchMore">
+                                <h4>Watch More</h4>
+                                <p>Sponsored . Showmax</p>
+                                <button>Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
            
-        <div class="header-search">
-            <form action="">
-                <input type="text" placeholder="search">
-                <button class="material-symbols-outlined">search</button>
-            </form>
-        </div>
+                <div id="video-container">
 
-        <div class="header-icon">
-            <button class="material-symbols-outlined">videocam</button> 
-            <button class="material-symbols-outlined">apps</button>
-            <button class="material-symbols-outlined">notifications</button>
-            <button class="material-symbols-outlined">account_circle</button>
-        </div>
-    </div>
-    <!-- header-ends -->
-
-    <!-- main body starts -->
-        <div class="mainbody">
-            <!-- sidebar starts -->
-            <div class="sidebar">
-                <div class="sidebar-categories">
-                 <div class="sidebar-category">
-                    <i class="material-symbols-outlined">home</i>
-                <span>Home</span>
-             </div>
-             <div class="sidebar-category">
-             <i class="material-symbols-outlined">local_fire_department</i>
-               <span>Trending</span>
-             </div>
-             <div class="sidebar-category">
-             <i class="material-symbols-outlined">subscriptions</i>
-                <span>Subcriptions</span>
-             </div>
-             <hr />
-             <div class="sidebar-categories">
-             <div class="sidebar-category">
-                <i class="material-symbols-outlined">library_add_check</i>
-                <span>Library</span>
-             </div>
-             <div class="sidebar-category">
-             <i class="material-symbols-outlined">history</i>
-                <span>History</span>
-             </div>
-             <div class="sidebar-category">
-             <i class="material-symbols-outlined">play_arrow</i>
-                 <span>Your Video</span>
-             </div>
-             <div class="sidebar-category">
-             <i class="material-symbols-outlined">watch_later</i>
-               <span>Watch Later</span>
-             </div>
-             <div class="sidebar-category">
-             <i class="material-symbols-outlined">thumb_up</i>
-                <span>Liked Videos</span>
-            </div>
-           </div>
-           <hr>
-            </div>
-        </div>
-        <!-- sidebar ends -->
-
-        <div class="videos">
-            <h1>Recommended</h1>
-            <div class="videos-container">
-                <!-- Single video start -->
-            <div class="video">
-             <div class="video-thumbnail">
-                <img src="https://img.youtube.com/vi/PpXUTUXU70Qc/maxresdefault.jpg" alt="">
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/pic1.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-               <div class="video-details">
-                <div class="author">
-                    <img src="pilow.jpg" alt="">
-                </div>
-                <div class="title">
-                    <h3>Learning how to build in a good enviroment</h3>
-                    <a href="">HuntCoders</a>
-                    <span>10M Views ° 3 Months Ago</span>
-                </div>
-               </div>
-                </div>
 
-            <div class="videos">
-                    <h1>Recommended</h1>
-                    <div class="videos-container">
-                        <!-- Single video start -->
                     <div class="video">
-                     <div class="video-thumbnail">
-                    <img src="https://img.youtube.com/vi/PpXUTUXU70Qc/maxresdefault.jpg" alt="">
+                        <div class="video-thumnail">
+                            <img src="./images/pilow.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
                             </div>
-                       <div class="video-details">
-                        <div class="author">
-                            <img src="pilow.jpg" alt="">
                         </div>
-                        <div class="title">
-                            <h3>Learning how to build in a good enviroment</h3>
-                            <a href="">HuntCoders</a>
-                            <span>10M Views ° 3 Months Ago</span>
-                        </div>
-                       </div>
-                        </div>
-
-                <div class="videos">
-                 <h1>Recommended</h1>
-                    <div class="videos-container">
-                     <!-- Single video start -->
-                    <div class="video">
-                    <div class="video-thumbnail">
-                    <img src="https://img.youtube.com/vi/PpXUTUXU70Qc/maxresdefault.jpg" alt="">
-                         </div>
-                        <div class="video-details">
-                        <div class="author">
-                             <img src="pilow.jpg" alt="">
-                        </div>
-                        <div class="title">
-                         <h3>Learning how to build in a good enviroment</h3>
-                         <a href="">HuntCoders</a>
-                        <span>10M Views ° 3 Months Ago</span>
-                            </div>
-                            </div>
-                       </div>            
-                                
-                <div class="videos">
-                  <h1>Recommended</h1>
-                   <div class="videos-container">
-                    <!-- Single video start -->
-                    <div class="video">
-                    <div class="video-thumbnail">
-                     <img src="https://img.youtube.com/vi/PpXUTUXU70Qc/maxresdefault.jpg" alt="">
-                                            </div>
-                     <div class="video-details">
-                     <div class="author">
-                         <img src="pilow.jpg" alt="">
-                        </div>
-                        <div class="title">
-                        <h3>Learning how to build in a good enviroment</h3>
-                        <a href="">HuntCoders</a>
-                       <span>10M Views ° 3 Months Ago</span>
-                         </div>
                     </div>
-                     </div>
-                <!-- single video ends -->
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/pic2.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/after4.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/pilow.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/pic3.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/after3.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/pilow.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/pilow.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/after2.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/pilow.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video">
+                        <div class="video-thumnail">
+                            <img src="./images/after1.jpg" alt="">
+                            <div class="video-details">
+                                <div class="author">
+                                    <img src="./images/profile.png.jpg" alt="">
+                                     <h4>Creative login and registration form</h4>
+                                </div>
+                                <div class="views">
+                                    <p>National Geographic</p>
+                                    <p>1M views . 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+
+                    
+                </div>
+            
         </div>
-    <!-- main body ends -->
 </body>
+
 </html>
